@@ -1,0 +1,60 @@
+.Customnav{
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.Customlogo{
+    width: 10%;
+    cursor: pointer;
+}
+
+.Customgengar{
+    width: 32px;
+    margin-left: 20px;
+}
+
+.Customlinks{
+    display: flex;
+    justify-content: end;  
+    width: 90%;
+    }
+
+ul{
+    display: flex;   
+    padding: 90px;
+}
+
+li{
+    list-style: none;
+    color: rgb(114, 44, 255);
+    margin: 0 20px;
+}
+
+li:hover{
+    color: white;
+    transition: all 1.5s;
+}
+
+.linkrouter{
+    text-decoration: underline;      
+    color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+  
+    
+}
+
+.linkcustomx{
+    margin-right: 16px;       
+    color: white;
+
+}
+
+.notactive{
+    color: blue;
+}
+
+

@@ -1,0 +1,112 @@
+body{
+  background: url(src\assets\bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    height: 100vh;
+    text-align: center;
+  }
+
+  .Customh1{
+    margin-top: 60px;
+    color: black;
+  }
+
+  .paramsss{
+    color: black;
+  }
+
+  @media (max-width: 800px){
+    .Customh1{
+       font-size: 16px;
+       letter-spacing: 0;
+      }
+
+      .gifc{
+        width: 40px;
+      }
+
+      .card {
+        
+        width: 200px;
+           
+      }
+  }
+
+  .Customop{
+    background-color: transparent;
+    color: black;
+    border: 2px rgb(255, 0, 255) solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .custombut{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 0, 255);
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+ 
+  }
+
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  .customform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  select{
+    text-align: center; 
+  }
+  
+  .card {
+    border: 1px solid #e600ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+       
+  }
+
+  .card:hover{   
+    transition: all 1.5s;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .card img {
+    width: 250px;
+    height: auto;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .card ul li {
+    margin-bottom: 5px;
+  }
+  

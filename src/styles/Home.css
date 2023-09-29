@@ -1,0 +1,69 @@
+.Customhome{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customimghome{
+  
+    width: 400px;   
+}
+
+@media (max-width: 800px){
+    .customimghome{
+        width: 320px;
+    }
+    .customlogopoke{
+        width: 280px;
+    }
+    .btncus{
+        width: 80%;
+    }
+    .divbtn{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+h1{
+ 
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: linear-gradient(1deg, white, #6a00ff); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+       
+}
+
+.divbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.btncus{
+    border-radius: 20px ;
+    background: transparent;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+.btncus:hover{
+    background-color: rgb(206, 0, 79);
+    transition: all 1.5s;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+
